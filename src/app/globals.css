@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Self-hosted font stacks (see src/app/layout.tsx) */
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Figtree Variable", "Figtree", system-ui, sans-serif;
+
+  --navy-deep: #08172E;
+  --navy-dark: #15253F;
+  --navy-mid: #2B3D5B;
+  --gold: #BD9060;
+  --terracotta: #CC7D51;
+  --beige: #D9B59D;
+  --offwhite: #F9F9F9;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--navy-deep); color: var(--offwhite); }
+
+/* Subtle grain over the night sky */
+.grain::before {
+  content: "";
+  position: fixed; inset: 0; pointer-events: none; z-index: 1; opacity: .05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Tarot-card frame: the signature element */
+.tarot-frame { position: relative; border: 1px solid rgba(189,144,96,.45); border-radius: 14px; }
+.tarot-frame::after {
+  content: ""; position: absolute; inset: 7px; pointer-events: none;
+  border: 1px solid rgba(189,144,96,.25); border-radius: 9px;
+}
+.tarot-corner { position: absolute; width: 14px; height: 14px; color: var(--gold); opacity: .9; }
+
+.gold-rule { height: 1px; background: linear-gradient(90deg, transparent, rgba(189,144,96,.6), transparent); }
+
+.btn-gold {
+  @apply inline-block rounded-full px-7 py-3 font-body text-sm tracking-wide transition;
+  background: var(--gold); color: var(--navy-deep);
+}
+.btn-gold:hover { background: var(--beige); }
+.btn-ghost {
+  @apply inline-block rounded-full px-7 py-3 font-body text-sm tracking-wide transition border;
+  border-color: rgba(189,144,96,.5); color: var(--beige);
+}
+.btn-ghost:hover { border-color: var(--gold); color: var(--offwhite); }
+
+.input {
+  @apply w-full rounded-lg px-4 py-3 text-sm outline-none transition;
+  background: rgba(21,37,63,.7); border: 1px solid rgba(189,144,96,.25); color: var(--offwhite);
+}
+.input:focus { border-color: var(--gold); }
+.label { @apply mb-1.5 block text-xs uppercase tracking-widest; color: var(--beige); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+@keyframes twinkle { 0%,100% { opacity:.25 } 50% { opacity:.9 } }
+.star { animation: twinkle 4s ease-in-out infinite; }

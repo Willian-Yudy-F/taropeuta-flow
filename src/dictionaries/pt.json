@@ -1,0 +1,78 @@
+{
+  "nav": { "home": "Início", "about": "Sobre", "services": "Atendimentos", "flow": "Taropeuta Flow", "book": "Agendar uma Leitura", "contact": "Contato" },
+  "hero": {
+    "eyebrow": "Tarot & Astrologia",
+    "title": "Clareza para o seu próximo passo",
+    "subtitle": "Um espaço para refletir, entender e escolher com mais confiança. Tarot e astrologia para decisões da vida real — relacionamentos, carreira, transições e autoconhecimento.",
+    "cta_primary": "Agendar uma Leitura",
+    "cta_secondary": "Conhecer Atendimentos"
+  },
+  "intro": {
+    "title": "Tarot e astrologia como ferramentas de reflexão",
+    "body": "Sua leitura não é uma previsão fixa. É um espaço de perspectiva — uma forma de enxergar padrões, avaliar possibilidades e fazer escolhas conscientes. As sessões são acolhedoras, diretas e práticas, nunca deterministas ou baseadas em medo."
+  },
+  "how": {
+    "title": "Como funcionam as leituras",
+    "steps": [
+      { "title": "Escolha seu atendimento", "body": "Encontre o formato que combina com o seu momento — uma leitura em áudio focada ou uma sessão profunda online." },
+      { "title": "Compartilhe seu contexto", "body": "Conte suas perguntas e seus dados de nascimento, para que suas informações astrológicas sejam preparadas com precisão." },
+      { "title": "Receba sua leitura", "body": "Leituras em áudio chegam pelo WhatsApp; sessões profundas acontecem ao vivo online. Sempre com cuidado e honestidade." }
+    ]
+  },
+  "birth": {
+    "title": "Por que pedimos seus dados de nascimento",
+    "body": "Sua data, horário e cidade de nascimento são necessários para calcular suas informações astrológicas com precisão. Eles são armazenados com segurança, usados apenas para suas leituras, e podem ser exportados ou excluídos a seu pedido."
+  },
+  "services": {
+    "title": "Atendimentos",
+    "subtitle": "Escolha o espaço que a sua pergunta precisa.",
+    "from": "AUD",
+    "minutes": "minutos",
+    "questions": "até {n} perguntas",
+    "open_session": "sessão aberta e aprofundada",
+    "whatsapp_audio": "Leitura em áudio pelo WhatsApp",
+    "online_session": "Sessão online ao vivo",
+    "book": "Agendar este atendimento"
+  },
+  "testimonials": { "title": "O que as clientes dizem" },
+  "faq": { "title": "Perguntas frequentes" },
+  "final_cta": { "title": "Pronta para mais clareza?", "cta": "Agendar uma Leitura" },
+  "footer": {
+    "disclaimer": "As leituras são voltadas à reflexão e ao autoconhecimento e não substituem aconselhamento médico, psicológico, jurídico ou financeiro.",
+    "privacy": "Política de Privacidade", "terms": "Termos de Uso", "cancellation": "Política de Cancelamento",
+    "whatsapp": "WhatsApp", "email": "E-mail", "instagram": "Instagram"
+  },
+  "about": {
+    "title": "Sobre a Taropeuta",
+    "values_title": "Valores",
+    "values": ["Clareza acima de certezas", "Acolhimento sem dependência", "Ética e privacidade", "Foco prático, na vida real"]
+  },
+  "booking": {
+    "title": "Agendar uma Leitura",
+    "step_service": "Atendimento", "step_time": "Data e horário", "step_details": "Seus dados", "step_payment": "Pagamento",
+    "select_date": "Escolha uma data", "select_time": "Horários disponíveis", "no_slots": "Sem horários disponíveis nesta data. Escolha outro dia, por favor.",
+    "your_timezone": "Horários exibidos em {tz}",
+    "form": {
+      "full_name": "Nome completo", "email": "E-mail", "whatsapp": "WhatsApp (com código do país)",
+      "country": "País onde mora", "city": "Cidade onde mora", "timezone": "Seu fuso horário",
+      "dob": "Data de nascimento", "birth_time": "Horário exato de nascimento", "birth_city": "Cidade de nascimento",
+      "birth_help": "Sua data, horário e cidade de nascimento são necessários para calcular suas informações astrológicas com precisão.",
+      "topic": "Tema principal da leitura", "topics": ["Relacionamentos", "Carreira", "Decisão pessoal", "Transição", "Clareza emocional", "Autoconhecimento", "Astrologia", "Outro"],
+      "questions": "Suas perguntas ou contexto para a leitura",
+      "consent_storage": "Autorizo o armazenamento seguro dos meus dados pessoais para a realização deste atendimento.",
+      "consent_terms": "Aceito os termos de uso e a política de cancelamento e reagendamento.",
+      "continue": "Continuar", "back": "Voltar", "pay": "Ir para o pagamento seguro", "confirm_manual": "Confirmar agendamento",
+      "required": "Campo obrigatório."
+    },
+    "summary": "Resumo do agendamento",
+    "manual_payment_note": "O pagamento online ainda não está habilitado. Seu horário ficará reservado como “aguardando pagamento” e você receberá as instruções por e-mail ou WhatsApp.",
+    "confirmation": {
+      "title": "Agendamento recebido",
+      "paid": "Seu pagamento foi confirmado e seu horário está garantido.",
+      "pending": "Seu horário está reservado, aguardando pagamento. Você receberá as instruções em breve.",
+      "reference": "Referência do agendamento", "support": "Dúvidas? Fale conosco no WhatsApp"
+    }
+  },
+  "contact": { "title": "Contato", "body": "Escreva para a gente ou mande uma mensagem no WhatsApp — respondemos assim que possível." },
+  "policies": { "privacy": "Política de Privacidade", "terms": "Termos de Uso", "cancellation": "Política de Cancelamento e Reagendamento", "disclaimer": "Aviso Ético" }
+}

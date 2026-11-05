@@ -1,0 +1,78 @@
+{
+  "nav": { "home": "Home", "about": "About", "services": "Sessions", "flow": "Taropeuta Flow", "book": "Book a Reading", "contact": "Contact" },
+  "hero": {
+    "eyebrow": "Tarot & Astrology",
+    "title": "Clarity for your next step",
+    "subtitle": "A space to reflect, understand, and choose with more confidence. Tarot and astrology for real-life decisions — relationships, career, transitions, and self-awareness.",
+    "cta_primary": "Book a Reading",
+    "cta_secondary": "Explore Sessions"
+  },
+  "intro": {
+    "title": "Tarot and astrology as tools for reflection",
+    "body": "Your reading is not a fixed prediction. It is a space for perspective — a way to see patterns, weigh possibilities, and make conscious choices. Sessions are warm, direct, and practical, never deterministic or fear-based."
+  },
+  "how": {
+    "title": "How readings work",
+    "steps": [
+      { "title": "Choose your session", "body": "Pick the format that fits your moment — a focused audio reading or a deep online session." },
+      { "title": "Share your context", "body": "Tell us your questions and your birth details, so your astrological information can be prepared accurately." },
+      { "title": "Receive your reading", "body": "Audio readings arrive via WhatsApp; deep sessions happen live online. Always with care and honesty." }
+    ]
+  },
+  "birth": {
+    "title": "Why we ask for your birth details",
+    "body": "Your birth date, birth time, and birth city are required to prepare your astrological information accurately. They are stored securely, used only for your readings, and can be exported or deleted at your request."
+  },
+  "services": {
+    "title": "Sessions",
+    "subtitle": "Choose the space your question needs.",
+    "from": "AUD",
+    "minutes": "minutes",
+    "questions": "up to {n} questions",
+    "open_session": "open, in-depth session",
+    "whatsapp_audio": "Audio reading via WhatsApp",
+    "online_session": "Live online session",
+    "book": "Book this session"
+  },
+  "testimonials": { "title": "What clients say" },
+  "faq": { "title": "Frequently asked questions" },
+  "final_cta": { "title": "Ready for more clarity?", "cta": "Book a Reading" },
+  "footer": {
+    "disclaimer": "Readings are intended for reflection and self-awareness and do not replace medical, psychological, legal, or financial advice.",
+    "privacy": "Privacy Policy", "terms": "Terms of Service", "cancellation": "Cancellation Policy",
+    "whatsapp": "WhatsApp", "email": "Email", "instagram": "Instagram"
+  },
+  "about": {
+    "title": "About Taropeuta",
+    "values_title": "Values",
+    "values": ["Clarity over certainty", "Warmth without dependency", "Ethics and privacy", "Practical, real-life focus"]
+  },
+  "booking": {
+    "title": "Book a Reading",
+    "step_service": "Session", "step_time": "Date & time", "step_details": "Your details", "step_payment": "Payment",
+    "select_date": "Select a date", "select_time": "Available times", "no_slots": "No available times on this date. Please choose another day.",
+    "your_timezone": "Times shown in {tz}",
+    "form": {
+      "full_name": "Full name", "email": "Email address", "whatsapp": "WhatsApp number (with country code)",
+      "country": "Country of residence", "city": "City of residence", "timezone": "Your time zone",
+      "dob": "Date of birth", "birth_time": "Exact birth time", "birth_city": "City of birth",
+      "birth_help": "Your birth date, birth time, and birth city are required to prepare your astrological information accurately.",
+      "topic": "Main topic of the reading", "topics": ["Relationships", "Career", "Personal decision", "Transition", "Emotional clarity", "Self-awareness", "Astrology", "Other"],
+      "questions": "Your questions or context for the reading",
+      "consent_storage": "I consent to my personal information being stored securely to deliver this service.",
+      "consent_terms": "I accept the terms of service and the cancellation and rescheduling policy.",
+      "continue": "Continue", "back": "Back", "pay": "Continue to secure payment", "confirm_manual": "Confirm booking",
+      "required": "This field is required."
+    },
+    "summary": "Booking summary",
+    "manual_payment_note": "Online payment is not yet enabled. Your booking will be reserved as “pending payment” and you will receive payment instructions by email or WhatsApp.",
+    "confirmation": {
+      "title": "Booking received",
+      "paid": "Your payment was confirmed and your booking is secured.",
+      "pending": "Your booking is reserved and pending payment. You will receive instructions shortly.",
+      "reference": "Booking reference", "support": "Questions? Message us on WhatsApp"
+    }
+  },
+  "contact": { "title": "Contact", "body": "Write to us or send a message on WhatsApp — we reply as soon as possible." },
+  "policies": { "privacy": "Privacy Policy", "terms": "Terms of Service", "cancellation": "Cancellation and Rescheduling Policy", "disclaimer": "Ethical Disclaimer" }
+}
